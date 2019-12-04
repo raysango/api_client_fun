@@ -1,4 +1,5 @@
 require 'api_client_fun/resource'
+require "api_client_fun/version"
 module ApiClientFun
   class << self
     attr_accessor :api_client_fun_resource
